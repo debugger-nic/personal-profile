@@ -3,8 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Time-themed Profile</title>
+    <title>My profile</title>
     <link rel="stylesheet" href="styles.css">
+    <style>
+
+        .sand-vial-container {
+            position: fixed;
+            top: 50px; 
+            left: 20px; 
+            width: 100px;
+            z-index: 1000; 
+        }
+        
+        .viewport {
+            margin-left: 120px; 
+            height: 1000px; 
+            overflow-y: scroll;
+        }
+
+       
+        .sand-image {
+            width: 120px; 
+            height: auto; 
+            display: block; 
+            margin-bottom: 10px; 
+        }
+    </style>
 </head>
 <body>
 
@@ -29,21 +53,18 @@
             <u1>
                 <p>Name: Nicholas</p>
                 <p>Age: 18</li>
-                    <p>Degree: Computer science / Economics</li>
-                        <p>Nationality: Australia</li>
-
-
+                <p>Degree: Computer science / Economics</li>
+                <p>Nationality: Australia</li>
             </u1>
 
         </section>
 
-        
-    
-        
         <section id="projects">
             <h1 class="projects-heading">Projects</h1>
-            <p class="projects-description">Below are some passion projects I have worked on.</p>
-    
+            <p class="projects-description">Below are some passion projects I have worked on. 
+                Take a look at the videos!
+            </p>
+
             <div class="project-container">
                 <div class="project">
                     <h2>Donut animation</h2>
@@ -57,17 +78,21 @@
                         </video>
                     </div>
                 </div>
-    
+
                 <div class="vertical-line"></div>
-    
+
                 <div class="project">
                     <h2>Pocket App Preview</h2>
+
+                    <p class="project-description">I coded this in C# and sql. 
+                        It is still not complete yet, the sorting options aren't done yet.
+                        You can see the app's description below.</p>
+
                     <p class="project-description">Pocket is an app where you can store tabs and files together. 
                         Filters and sorting options make it easy to find the tab or file you are looking for. 
                         This app is useful for storing and organizing resources for your project or just anything.
                     </p>
-                    <p class="project-description">Coded in C# and sql.</p>
-                    <p class="project-description">It is still not complete yet, the sorting options aren't done yet.</p>
+                    
                     <div class="video-container">
                         <video width="320" height="240" controls>
                             <source src="Pocket_Preview3.mp4" type="video/mp4">
@@ -76,30 +101,30 @@
                 </div>
             </div>
         </section>
-        
-        
-        
-        
-        
-
 
         <section id="contact">
-            <h2>Contact Me</h2>
-            
+            <h2>Contact me on...</h2>
+
             <button-text><button id="discord-button" class="button-link">Discord</button></button-text>
             <script src="clipboard.js"></script>
 
+            <a href="https://www.linkedin.com/in/nicholas-ta-840558276/" class="button-link">LinkedIn</a>
 
-            <h5>LinkedIn</h5>
             <a href="https://github.com/debugger-nic" class="button-link">GitHub</a>
-
-
         </section>
     </main>
 
     <footer>
         <p>&copy; 2024 Nicholas</p>
     </footer>
+
+    <div class="sand-vial-container">
+        <img src="Sand-timer-0.png" class="sand-image" alt="Sand Image 1">
+        <img src="Sand-timer-1.png" class="sand-image" alt="Sand Image 2">
+        <img src="Sand-timer-2.png" class="sand-image" alt="Sand Image 3">
+        <img src="Sand-timer-3.png" class="sand-image" alt="Sand Image 4">
+        <img src="Sand-timer-4.png" class="sand-image" alt="Sand Image 5">
+    </div>
 
 </body>
 </html>

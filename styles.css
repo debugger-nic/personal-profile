@@ -1,9 +1,9 @@
 .button-link {
-    font-size: 16px;
+    font-size: 20px;
 
     display: inline-block;
-    padding: 10px 20px;
-    background-color: #007bff;
+    padding: 10px 40px;
+    background-color: lightslategray;
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
@@ -13,7 +13,7 @@
 
 
 .button-link:hover {
-    background-color: #0056b3;
+    background-color: burlywood;
 }
 
 
@@ -48,7 +48,7 @@ header, footer {
     width: 100%; 
     background-color: #333; 
     color: white;
-    padding: 20px; 
+    padding: 10px; 
 }
 
 main {
@@ -115,8 +115,37 @@ h2 {
 }
 
 .separator {
-    height: 100px; 
+    height: 235px; 
     width: 100%;
     background-color: transparent; 
     margin-top: 20px; 
 }
+
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif; 
+}
+
+
+
+.sand-vial-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 100vh; 
+    background-color: transparent; 
+    z-index: 1000;
+    overflow-y: auto; 
+}
+
+
+.viewport {
+    margin-left: 220px; 
+    height: 1000px; 
+    overflow-y: scroll;
+}
+
+
